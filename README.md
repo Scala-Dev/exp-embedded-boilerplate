@@ -16,3 +16,9 @@ When you are ready to run the app
 ```
 node index.js
 ```
+
+To try out the GPIO button example you can run
+```
+node examples/buttons/index.js
+```
+This example is based on the GPIO pin layout of a Raspberry Pi, using a 1x4 membrane button array.
