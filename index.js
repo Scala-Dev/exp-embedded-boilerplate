@@ -20,7 +20,7 @@ exp.runtime.start({
     name: 'joke72',
     payload: {
       opening: 'knock knock?'
-    },
+    }
   });
 
 })
