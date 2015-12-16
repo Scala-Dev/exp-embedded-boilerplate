@@ -6,6 +6,10 @@ global.localStorage = require('node-persist');
 global.localStorage.initSync();
 
 // globals are required for remote scripts
+global.exec = require('child_process').exec;
+global.http = require('http');
+global.https = require('https');
+global.fs = require('fs');
 global._ = require('lodash');
 global.exp = require('exp-js-sdk');
 
