@@ -1,7 +1,6 @@
 'use strict';
 
-// setup prerequisites for the sdk (fetch and localStorage)
-global.fetch = require('node-fetch');
+// setup prerequisites for the sdk (localStorage)
 global.localStorage = require('node-persist');
 global.localStorage.initSync();
 
