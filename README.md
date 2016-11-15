@@ -1,5 +1,5 @@
 #Prerequisites
-node.js v0.12.7 and npm@2.14.0 are recommended
+node.js v4 is recommended
 
 #Project Setup
 To install the project dependencies run the following

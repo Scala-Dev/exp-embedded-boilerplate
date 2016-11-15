@@ -1,16 +1,14 @@
 {
   "name": "exp-embedded-boilerplate",
-  "version": "0.0.0",
-  "description": "",
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-nodemon": "^2.0.3",
-    "yargs": "^3.5.3"
+  "version": "0.0.1",
+  "description": "An example node.js project for an embedded application using the EXP SDK",
+  "scripts": {
+    "start": "nodemon index.js"
   },
   "dependencies": {
-    "exp-js-sdk": "git+https://github.com/scalainc/exp-js-sdk.git#develop",
-    "lodash": "^3.10.1",
-    "node-persist": "0.0.4",
-    "onoff": "^1.0.2"
+    "exp-sdk": "1.0.5",
+    "lodash": "^4.17.1",
+    "nodemon": "1.11.0",
+    "onoff": "1.1.1"
   }
 }
